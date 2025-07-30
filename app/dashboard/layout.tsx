@@ -3,6 +3,7 @@ import { SidebarProvider } from "@/components/ui/sidebar";
 import { Suspense } from "react";
 
 export default function DashboardLayout({
+  
   children,
 }: {
   children: React.ReactNode;
