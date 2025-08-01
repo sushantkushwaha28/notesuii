@@ -18,7 +18,6 @@ export default async function Page() {
             <NotebookCard key={notebook.id} notebook={notebook} />
           ))}
       </div>
-
       {notebooks.success && notebooks?.notebooks?.length === 0 && (
         <div>No notebooks found</div>
       )}
