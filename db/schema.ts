@@ -1,6 +1,7 @@
 import { relations, sql } from "drizzle-orm";
 import { boolean, jsonb, pgTable, text, timestamp } from "drizzle-orm/pg-core";
 
+
 export const user = pgTable("user", {
     id: text('id').primaryKey(),
     name: text('name').notNull(),
