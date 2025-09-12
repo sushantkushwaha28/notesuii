@@ -13,6 +13,7 @@ export const createNote = async (values: InsertNote) => {
     }
 };
 
+
 export const getNoteById = async (id: string) => {
     try {
         const note = await db.query.notes.findFirst({
