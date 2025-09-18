@@ -14,7 +14,6 @@ export const createNotebook = async (values: InsertNotebook) => {
         return { success: false, message: "Failed to create notebook" };
     }
 };
-
 export const getNotebooks = async () => {
     try {
         const session = await auth.api.getSession({
