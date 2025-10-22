@@ -89,4 +89,5 @@ export const noteRelations = relations(notes, ({ one }) => ({
 export type Note = typeof notes.$inferSelect;
 export type InsertNote = typeof notes.$inferInsert;
 
+
 export const schema = { user, session, account, verification, notebooks, notes, notebookRelations, noteRelations };
